@@ -1,3 +1,4 @@
 $('.menu').click(function() {
-    $('header').slideToggle('slow')
+    $('header').slideToggle('slow')    
 })
+

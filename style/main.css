@@ -4,6 +4,7 @@
 
 /**
  * Jak usunąć górny padding/odstęp w nagłówku h3, żeby się wyśrodkował?
+ * Jak przykryć całkowicie przyciskiem "wyślij" border pola textarea?
  */
 
 
@@ -226,6 +227,7 @@ button {
     margin-top: -1.5rem;
     margin-right: -3rem;
     z-index: 9999;
+    text-transform: uppercase;
 }
 
 
@@ -375,20 +377,17 @@ footer {
     
     header {
         padding: 2rem;
+        height: 52rem;
     }
     
     form {
         float: none;
         margin: 1rem auto;
     }
-    
-    header {
-        height: 60rem;
-    }
-    
+        
     nav {
         padding-top: 2rem;
-        margin: 0 auto;
+        margin-right: 1rem;
     }
     
     nav li {
@@ -415,7 +414,7 @@ footer {
 @media all and (max-width: 460px) {    
     
     header {
-        height: 60rem;
+        height: 62rem;
     }
     
     form {
@@ -426,6 +425,9 @@ footer {
         width: 90%;
     }
     
+    header {
+        min-width: 270px;
+    }
     
 }
 
