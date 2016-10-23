@@ -118,6 +118,7 @@ em {
 html {
     //background: #ffc107 url(../img/background.jpg) fixed no-repeat;    
     background: #ffc107 url(../img/backgroundfull.jpg) fixed no-repeat;
+    width: 100%;
     background-size: contain;    
 }
 
@@ -166,15 +167,19 @@ html {
 }
 
 header { 
+    position: fixed;
+    width: 100%;
     display: none;
     background-color: #48504e;
     height: 30rem;
     padding: 10rem;
     color: #ffffff;
+    z-index: 99;
 }
 
 nav {
-    float: right;    
+    float: right;
+    margin-right: 15rem;
 }
 
 nav li {
@@ -383,6 +388,7 @@ footer {
     
     nav {
         padding-top: 2rem;
+        margin: 0 auto;
     }
     
     nav li {
