@@ -5,6 +5,7 @@
 /**
  * Jak usunąć górny padding/odstęp w nagłówku h3, żeby się wyśrodkował?
  * Jak przykryć całkowicie przyciskiem "wyślij" border pola textarea?
+ * Rozdział Stylowanie headera, w jaki sposób .hoverme:hover header reaguje po  8  najechaniu na ikonę z klasą .menu?
  */
 
 
@@ -205,6 +206,41 @@ form {
     width: 35rem;
 }
 
+/* input {
+    width: 35rem;
+    background: none;
+    border: 2px #d4d4d3 solid;
+    margin: 1rem;
+    padding: 1rem;
+    color: #fff; 
+    font-size: 1.7rem;
+}
+
+textarea {
+    width: 35rem;
+    height: 10rem;
+    background: #808080;
+    border: 2px #d4d4d3 solid;
+    margin: 1rem;
+    padding: 1rem;
+    color: #fff; 
+    font-size: 1.7rem;
+    font-family: 'Arial', sans-serif;
+    display: block;
+}
+
+button {
+    background: #ffc107;
+    border: none;
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    float: right;
+    cursor: pointer; 
+    margin-top: -3rem;
+    margin-right: -4.5rem;
+    position: relative;
+} */
+
 input, textarea {
     width: 35rem;
     background: none;
@@ -215,6 +251,10 @@ input, textarea {
     font-size: 1.7rem;
     z-index: -10;
     font-family: 'Playfair Display', serif;
+}
+
+textarea {
+    display: block;
 }
 
 button {    
@@ -229,6 +269,7 @@ button {
     z-index: 9999;
     text-transform: uppercase;
 }
+
 
 
 
@@ -284,6 +325,7 @@ figure {
 }
 
 .text-second {
+    padding-top: 10rem;
     column-count: 0;
 }
 
